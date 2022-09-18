@@ -1,5 +1,5 @@
-const { validate } = require('../src/AddressValidator')
-const { Address } = require('../src/Address')
+const { validate } = require('../AddressValidator')
+const { Address } = require('../../Entities/Address')
 
 function GetAddress() {
   return new Address(

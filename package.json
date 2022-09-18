@@ -7,9 +7,13 @@
     "test": "tests"
   },
   "scripts": {
-    "eslint": "eslint *.js",
-    "test": "jest --coverage",
-    "test-watch": "jest --coverage --watch"
+    "test": "jest",
+    "eslint": "npx eslint \"src/**\"",
+    "prettier": "npx prettier --check \"src/**\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stormhead77/CustomerJS.git"
   },
   "author": "",
   "license": "ISC",

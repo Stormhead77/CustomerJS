@@ -1,6 +1,6 @@
-const { validate } = require('../src/CustomerValidator')
-const { Customer } = require('../src/Customer')
-const { Address } = require('../src/Address')
+const { validate } = require('../CustomerValidator')
+const { Customer } = require('../../Entities/Customer')
+const { Address } = require('../../Entities/Address')
 
 function GetCustomer() {
   return new Customer(
